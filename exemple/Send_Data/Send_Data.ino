@@ -8,8 +8,8 @@
 
 DHT dht;
 
-const char* ssid =  "YoupiLab";//
-const char* password = "i_l@v3_yl2021";//
+const char* ssid =  "Mon point d'acces";//
+const char* password = "12344566789";//
 int pho_res = A0;
 String d;
 String APP_ID     = "espc8123";  // Equipment APP ID

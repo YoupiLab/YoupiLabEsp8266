@@ -1,7 +1,7 @@
   #include <YoupiLabEsp8266.h>
   
-  const char* ssid =  "YoupiLab";//
-  const char* password = "i_l@v3_yl2021";
+const char* ssid =  "Mon point d'acces";//
+const char* password = "12344566789";//
   
   String APP_ID     = "dht41ffe";  // Equipment APP ID
   String APP_KEY    = "79a1a24f";  // Equipment Key
@@ -15,6 +15,8 @@
     if (esp.veriyAndConnectToWifi(ssid, password) == 1) {
       Serial.println("Connexion reussi");
     }
+    pinMode(led1, OUTPUT);
+    pinMode(led2, OUTPUT);
   }
   
   void loop() {
